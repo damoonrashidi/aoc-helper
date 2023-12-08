@@ -1,0 +1,30 @@
+[package]
+name = "aoc-helper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.75"
+chrono = "0.4.31"
+inquire = { version = "0.6.2", features = ["editor", "date"] }
+reqwest = { version = "0.11.22", features = ["blocking"] }
+serde = { version = "1.0.193", features = ["derive"] }
+simple-home-dir = "0.2.0"
+toml = "0.8.8"
+
+[[bin]]
+name = "aoc"
+path = "src/main.rs"
+
+[lints.clippy]
+all = "deny"
+pedantic = "deny"
+
+[lints.rust]
+unsafe_code = "forbid"
+dead_code = "deny"
+unused_variables = "deny"
+unused_imports = "deny"
+unused_import_braces = "deny"
+missing_debug_implementations = "deny"
+unreachable_pub = "deny"
