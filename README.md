@@ -1,5 +1,7 @@
 # Advent of Code helper
 
+[![asciicast](https://asciinema.org/a/de7BDjSC1PCuaFj2n30ZmxNzl.svg)](https://asciinema.org/a/de7BDjSC1PCuaFj2n30ZmxNzl)
+
 ## Installation
 
 ```bash
